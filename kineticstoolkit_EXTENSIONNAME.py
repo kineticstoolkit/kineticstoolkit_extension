@@ -32,11 +32,18 @@ __license__ = "Apache 2.0"
 import kineticstoolkit
 
 
+# Print something to know that the extension is loaded. Delete this before the true release.
+print("Nice, I was imported. PLEASE DELETE THIS TEST PRINT LINE.")
+
 def some_function():
-    """This function will be available as ktk.ext.EXTENSIONNAME.some_function()."""
-    pass
+    """
+    This function will be available as ktk.ext.EXTENSIONNAME.some_function().
+    
+    You can delete it.
+    """
+    print("Called some_function().")
     
 def some_other_function():
-    """This function will be available as ktk.ext.EXTENSIONNAME.some_other_function()."""
+    """This function will be available as ktk.ext.EXTENSIONNAME.some_other_function(), etc."""
     pass
 
