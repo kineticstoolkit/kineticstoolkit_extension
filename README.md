@@ -1,4 +1,4 @@
-Refer to https://kineticstoolkit.uqam.ca/doc/dev_extensions.html to know how to fork this repository and build your own extension, then delete this line.
+Refer to https://kineticstoolkit.uqam.ca/doc/extensions.html to know how to fork this repository and build your own extension, then delete this line.
 
 
 
