@@ -15,16 +15,11 @@ author_email = "EMAIL"
 #--------------------------------------------------------------------------------
 
 
-with open("VERSION.txt", "r") as fh:  # Generated on release by the GitHub build action
-    version = fh.read()
-    
 with open("README.md", "r") as fh:
-    long_description = fh.read()
-
+    long_description = fh.readline()
 
 setuptools.setup(
     name=name,
-    version=version,
     description=(description),
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -32,7 +27,9 @@ setuptools.setup(
     author=author,
     author_email=author_email,
     license='Apache',
-        license_files=['LICENSE.txt'],
+        license_files=['LICENSE.txt', 'VERSION.txt'],
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
     packages=setuptools.find_packages(),
     install_requires=[],
     python_requires='>=3.8',
