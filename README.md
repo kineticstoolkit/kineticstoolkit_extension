@@ -13,6 +13,12 @@ Please write a one-line description of your extension.
 pip install git+https://github.com/USERNAME/kineticstoolkit_EXTENSIONNAME
 ```
 
+## Uninstalling
+
+```
+pip uninstall kineticstoolkit_EXTENSIONNAME
+```
+
 ## How to use this extension
 
 Please write code examples and tutorials to teach others how to use your extension.
