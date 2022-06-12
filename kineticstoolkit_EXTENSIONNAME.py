@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Copyright 2022 AUTHOR_NAME
+# Copyright YEAR AUTHORNAME
 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,17 +15,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# =======================================================================
-# PLEASE CHANGE AUTHOR_NAME AND AUTHOR_EMAIL FOR YOUR AUTHOR INFORMATION.
-# =======================================================================
 
 """
 Provide a short description of your extension.
 """
 
-__author__ = "AUTHOR_NAME"
-__copyright__ = "Copyright (C) 2022 AUTHOR_NAME"
-__email__ = "AUTHOR_EMAIL"
+__author__ = "AUTHORNAME"
+__copyright__ = "Copyright (C) YEAR AUTHOR_NAME"
+__email__ = "AUTHOREMAIL"
 __license__ = "Apache 2.0"
 
 
