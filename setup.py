@@ -7,9 +7,9 @@ import setuptools
 #--------------------------------------------------------------------------------
 name = "kineticstoolkit_EXTENSIONNAME"
 description = "An extension to Kinetics Toolkit"
-url = "https://github.com/USER/REPOSITORY"
-author = "NAME"
-author_email = "EMAIL"
+url = "https://github.com/GITHUBUSER/kineticstoolkit_EXTENSIONNAME"
+author = "AUTHORNAME"
+author_email = "AUTHOREMAIL"
 #--------------------------------------------------------------------------------
 # It may be advised to avoid modifying the rest of this file.
 #--------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ setuptools.setup(
     author=author,
     author_email=author_email,
     license='Apache',
-        license_files=['LICENSE.txt', 'VERSION.txt'],
+        license_files=['LICENSE.txt'],
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
     packages=setuptools.find_packages(),
