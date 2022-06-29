@@ -25,16 +25,32 @@ __email__ = "AUTHOREMAIL"
 __license__ = "Apache 2.0"
 
 
+import sys
+import os
 import kineticstoolkit as ktk
 
 
-ktk.ext.import_extensions()
+# Add this extension to the path, for testing before the extension is
+# distributed and installed via pip.
+if os.path.dirname(__file__) not in sys.path:
+    sys.path.append(os.path.dirname(__file__))
+
+ktk.import_extensions()
 
 
 def test_function1():
-    """Test function 1."""
-    assert True
-    
+    """Test function 1. Placeholder. Delete me."""
+    assert ktk.ext.EXTENSIONNAME.function1() == "I am function1"
+
+
 def test_function2():
-    """Test function 2, etc."""
-    assert True
+    """Test function 2. Placeholder. Delete me."""
+    assert ktk.ext.EXTENSIONNAME.function2() == "I am function2"
+
+
+if __name__ == "__main__":
+    # You can either run this file directly, or run 'pytest test_extension' in
+    # a terminal.
+    import pytest
+
+    pytest.main([__file__])

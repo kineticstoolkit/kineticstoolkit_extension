@@ -26,7 +26,23 @@ __email__ = "AUTHOREMAIL"
 __license__ = "Apache 2.0"
 
 
-import kineticstoolkit
-
-
 # Define your functions, variables, submodules, classes here.
+def function1():
+    """Placeholder. Delete me."""
+    return "I am function1"
+
+
+def function2():
+    """Placeholder. Delete me."""
+    return "I am function2"
+
+
+"""
+The section below is optional. If you put code examples in your docstring,
+then running this file will test that your examples give the correct results.
+Please check https://docs.python.org/3/library/doctest.html for details.
+"""
+if __name__ == "__main__":  # pragma: no cover
+    import doctest
+
+    doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE)
