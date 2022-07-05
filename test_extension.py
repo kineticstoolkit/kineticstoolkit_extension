@@ -49,7 +49,7 @@ def test_function2():
 
 
 if __name__ == "__main__":
-    # You can either run this file directly, or run 'pytest test_extension' in
+    # You can either run this file directly, or run 'pytest test_extension.py' in
     # a terminal.
     import pytest
 
